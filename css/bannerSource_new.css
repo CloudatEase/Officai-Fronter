@@ -1,0 +1,92 @@
+﻿/* 优先加载第一张banner */
+html {
+	background: url(img/home_banner_2019spring_v2.jpg) no-repeat 0 -1000px;
+}
+/* banner图 */
+.banner-cloudapp {
+	background: #202125 url(img/banner_5years.jpg) center center no-repeat;
+}
+/* .banner-cloudapp {
+	background: #202125 url(img/home_banner_cloudx01.jpg) center center no-repeat;
+} */
+.banner-easyCloud {
+	background: url(img/banner-bg2.jpg) center center no-repeat;
+}
+.banner-loadbalance {
+	background: url(img/home_banner_loadbalance.jpg) center center no-repeat;
+}
+.banner-domain {
+	background: url(img/home_banner_domain.jpg) center center no-repeat;
+}
+.banner-vip {
+	background: url(img/home_banner_vip.jpg) center center no-repeat;
+}
+.banner-cps {
+	background: url(img/home_banner_cps.jpg) center center no-repeat;
+}
+.banner-trust {
+	background: url(img/home_banner_cloudx01.jpg) center center no-repeat;
+}
+.banner-2018end {
+	background: #790ab8 url(img/home_banner_2018end.jpg) center center no-repeat;
+}
+.banner-2019spring {
+	background: #790ab8 url(img/home_banner_2019spring_v2.jpg) center center no-repeat;
+}
+.banner-huadong {
+	background: #001A64 url(img/home_banner_huadong3.jpg) center center no-repeat;
+}
+/* 5折活动*/
+.banner-engine .banner-text3 {
+	font-size: 32px;
+	color: #fff;
+}
+.banner-engine .banner-text4 {
+	margin-top: 0px;
+	font-size: 56px;
+	color: #fff;
+}
+.banner-engine .banner-text5 {
+	margin-top: 20px;
+	font-size: 24px;
+	color: #fff;
+}
+.banner-engine .banner-particulars-5zhe{
+	margin-top: 25px;
+}
+/* 新banner文字颜色 */
+.banner-engine .banner-text2 {
+	color: #fff;
+}
+.banner-num{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #e95964;
+}
+.banner-text-yellow {
+	color: #ff9935;
+}
+.banner-text-v4green {
+	color: #2fc9bd;
+}
+.banner-link-button.button-colorful {
+	border: none;
+	background: url(img/banner_button_bg_1.jpg) no-repeat center;
+	transition: background 0.3s ease;
+}
+.banner-link-button.button-colorful:hover {
+	border: none;
+	color: #fff;
+	background: url(img/banner_button_bg_1_hover.jpg) no-repeat center;
+}
+.banner-link-button.link-2018-spring:hover {
+	background-color: #eab536;
+	border-color: #eab536;
+	color: #fff;
+}
+/* 用于预加载彩色按钮hover背景图 */
+.button-colorful-preload {
+	visibility: hidden;
+	background: url(img/banner_button_bg_1_hover.jpg) no-repeat center;
+}

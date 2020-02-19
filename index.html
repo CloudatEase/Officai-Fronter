@@ -1,0 +1,1780 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+	<title>小鸟云 - 企业级云服务器、虚拟主机、服务器租用托管服务提供商</title>
+	<meta name="keywords" content="云服务器,服务器,服务器租用,云主机,虚拟主机" />
+	<meta name="description" content="小鸟云是国内领先的企业级云计算服务提供商。专注公有云技术研发，主要面向广大开发者、政企用户、金融机构等，提供基于智能云服务器的全方位云计算解决方案，为用户提供可信赖的企业级公有云服务。" />
+	<script>
+		// 首页新增功能,当客户重定向到首页时,根据路由hash,重新跳转对应页面
+		var localHash = location.hash
+		if(localHash.length > 1){
+			location.href = localHash.substring(1)
+		}
+	</script>
+	<link rel="stylesheet" href="css/common.min.css"/>
+	<!-- <link rel="stylesheet" href="css/common.css"/> -->
+	<link rel="stylesheet" href="css/home_new.css"/>
+	<link rel="stylesheet" href="css/bannerSource_new.css"/>
+	<!-- <script src="js/jquery.min.js"></script> -->
+<!-- <script src="js/jquery.dialog.js"></script>
+<script src="js/iframeTools.js"></script> -->
+<!-- <script src="js/jquery.cookie.js"></script> -->
+
+
+
+</head>
+<body class="banner-engine normal-header index-page">
+<!-- header -->
+<div class="header-container">
+	<div class="banner-box">
+		<div class="top-nav header-main">
+			<div class="header default-transition-fast">
+				<div class="header-wrapper auto clearfix">
+					<div class="header-left">
+						<div class="header-logo">
+							<a href="/" class="logo hide-text">
+							</a>
+						</div>
+						<div class="header-nav">
+							<ul>
+								<li class="header-nav-li">
+									<a href="/">
+										首页
+									</a>
+								</li>
+								<!--<li class="header-nav-li">
+									<a class="newest-act-link" href="/act/">
+										<i class="newest-act-link-icon"></i>
+										最新活动
+									</a>
+								</li>-->
+								<li class="header-nav-li">
+									<a class="cursor-arrow">产品</a>
+									<div class="pop-list">
+										<span class="pop-arrow"></span>
+										<div class="auto clearfix">
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													云计算
+												</div>
+												<ul>
+													<li>
+														<a href="/server/">
+															<span class="nav-item-name nav-item-hot">
+																云服务器
+															</span>
+															<div class="nav-item-brief">
+																高速稳定高弹性的计算服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/loadbalance/">
+															<!--<span class="nav-item-name nav-item-tobe">-->
+															<span class="nav-item-name">
+																负载均衡
+															</span>
+															<div class="nav-item-brief">
+																高性能流量分发的负载均衡服务
+															</div>
+														</a>
+													</li>
+													<li style="color: #7a8185;">
+														<a href="/database/mysql/">
+															<span class="nav-item-name nav-item-new">
+																	云数据库 MySQL
+															</span>
+															<div class="nav-item-brief">
+																稳定可靠、可弹性伸缩的数据方案
+															</div>
+														</a>
+													</li>
+													<li style="color: #7a8185;">
+														<a href="/database/sqlserver/">
+															<span class="nav-item-name nav-item-new">
+																	云数据库 SQL Server
+															</span>
+															<div class="nav-item-brief">
+																安全运行、轻松管理的数据方案
+															</div>
+														</a>
+													</li>
+
+													<li>
+														<a href="/storage/">
+															<span class="nav-item-name nav-item-new">
+																对象存储
+															</span>
+															<div class="nav-item-brief">
+																高可用、易扩展、低成本、一站式
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													网站服务
+												</div>
+												<ul>
+													<li>
+														<a href="/host/">
+															<span class="nav-item-name nav-item-hot">
+																云虚拟主机
+															</span>
+															<div class="nav-item-brief">
+																基于云计算的虚拟主机服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/domain/">
+															<span class="nav-item-name">
+																域名注册
+															</span>
+															<div class="nav-item-brief">
+																提供五星级的域名注册服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/icp/">
+															<span class="nav-item-name">
+																网站备案
+															</span>
+															<div class="nav-item-brief">
+																免费、快速、便捷的备案服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/cdn/">
+															<span class="nav-item-name nav-item-new">
+																CDN加速
+															</span>
+															<div class="nav-item-brief">
+																智能调度的内容分发服务
+															</div>
+														</a>
+													</li>
+													<li>
+															<a href="javascript:void(0);">
+																<span class="nav-item-name" style="color:#7a8185;">
+																	智能建站（即将上线）
+																</span>
+																<div class="nav-item-brief" style="color:#7a8185;">
+																	智能化构建网站和小程序
+																</div>
+															</a>
+														</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													IDC服务
+												</div>
+												<ul>
+													<li>
+														<a href="/idc/">
+															<span class="nav-item-name">
+																服务器托管
+															</span>
+															<div class="nav-item-brief">
+																安全贴心高品质的托管服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/baremetal/">
+															<span class="nav-item-name nav-item-new">
+																裸金属服务器
+															</span>
+															<div class="nav-item-brief">
+																高性能安全隔离物理集群服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/bandwidth/">
+															<span class="nav-item-name">
+																大带宽
+															</span>
+															<div class="nav-item-brief">
+																专有网络传输通道，100%网络隔离
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													安全与管理
+												</div>
+												<ul>
+													<li>
+														<a href="/ssl/">
+															<span class="nav-item-name">
+																SSL证书
+															</span>
+															<div class="nav-item-brief">
+																提供一站式的证书部署服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/monitor/">
+															<span class="nav-item-name">
+																云监控
+															</span>
+															<div class="nav-item-brief">
+																精准灵活超便捷的资源预警服务
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="/cloudAppCode/">
+															<span class="nav-item-name">
+																云帮手
+															</span>
+															<div class="nav-item-brief">
+																一站式云服务器管理工具
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class=" header-nav-li">
+									<a class="cursor-arrow">保障</a>
+									<div class="pop-list">
+										<span class="pop-arrow"></span>
+										<div class="auto">
+											<div class="nav-pop-item">
+												<a href="/trustcenter/" class="nav-item-title">
+													信任中心 >>
+												</a>
+												<ul>
+													<li>
+														<a href="/trustcenter/#network">
+														<span class="nav-item-name">
+															基础设施与网络
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/trustcenter/#service">
+														<span class="nav-item-name">
+															服务保障能力
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/trustcenter/#safety">
+														<span class="nav-item-name">
+															数据安全
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/trustcenter/#certificate">
+														<span class="nav-item-name">
+															合规资质
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<a href="/datacenter/" class="nav-item-title">
+													数据中心 >>
+												</a>
+												<ul>
+													<li>
+														<a href="/datacenter/huazhong.html">
+														<span class="nav-item-name nav-item-new">
+															中国武汉多线数据中心
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/datacenter/huadong.html">
+														<span class="nav-item-name">
+															中国南京多线数据中心
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/datacenter/huabei.html">
+														<span class="nav-item-name">
+															中国内蒙多线数据中心
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/datacenter/dongbei.html">
+														<span class="nav-item-name">
+															中国大连多线数据中心
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<a href="/datacenter/" class="nav-item-title">
+													&nbsp;
+												</a>
+												<ul>
+													<li>
+														<a href="/datacenter/guangdong.html">
+														<span class="nav-item-name">
+															中国深圳多线数据中心
+														</span>
+														</a>
+													</li>
+
+													<li>
+														<a href="/datacenter/hongkong.html">
+														<span class="nav-item-name">
+															中国香港国际数据中心
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<a href="/support/vip.html" class="nav-item-title">
+													VIP会员服务 >>
+												</a>
+												<ul>
+													<li>
+														<a href="/support/vip.html#service">
+														<span class="nav-item-name">
+															7*24小时服务支持
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/support/vip.html#icp">
+														<span class="nav-item-name">
+															0元快速备案
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/support/vip.html#compensate">
+														<span class="nav-item-name">
+															100倍故障赔偿
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/support/vip.html#refund">
+														<span class="nav-item-name">
+															5天无理由退款
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class=" header-nav-li">
+									<a class="cursor-arrow">解决方案</a>
+									<div class="pop-list">
+										<span class="pop-arrow"></span>
+										<div class="auto">
+											<div class="nav-pop-item single-item">
+												<div class="nav-item-title">
+													行业解决方案
+												</div>
+												<ul>
+													<li>
+														<a href="/solutions/website.html">
+															<span class="nav-item-name">
+																网站解决方案
+															</span>
+														</a>
+													</li>
+													<li>
+														<a href="/solutions/financial.html">
+															<span class="nav-item-name">
+																金融云解决方案
+															</span>
+														</a>
+													</li>
+													<li>
+														<a href="/solutions/ecommerce.html">
+															<span class="nav-item-name">
+																电商云解决方案
+															</span>
+														</a>
+													</li>
+													<li>
+														<a href="/solutions/mobile.html">
+															<span class="nav-item-name">
+																移动云解决方案
+															</span>
+														</a>
+													</li>
+													<li class="last-item">
+														<a href="/solutions/game.html">
+															<span class="nav-item-name">
+																游戏云解决方案
+															</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="header-nav-li">
+									<a href="/docs/">帮助文档</a>
+								</li>
+								<li class="header-nav-li">
+									<a class="cursor-arrow">生态合作</a>
+									<div class="pop-list">
+										<span class="pop-arrow"></span>
+										<div class="auto">
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													云推广
+												</div>
+												<ul>
+													<li>
+														<a href="/act/cps/">
+														<span class="nav-item-name">
+															CPS推广
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													云合作
+												</div>
+												<ul>
+													<li>
+														<a href="/oem/">
+														<span class="nav-item-name">
+															OEM合作
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="nav-pop-item">
+												<div class="nav-item-title">
+													小鸟云
+												</div>
+												<ul>
+													<li>
+														<a href="/about/">
+														<span class="nav-item-name">
+															公司简介
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/news/">
+														<span class="nav-item-name">
+															媒体报道
+														</span>
+														</a>
+													</li>
+													<li>
+														<a href="/about/contact.html">
+														<span class="nav-item-name">
+															联系我们
+														</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="header-nav-right">
+						<div class="welcome-container" id="userinfoContainer">
+							<div class="logout-container clearfix">
+								<a href="/login/" class="login-button">请登录</a>
+								<a href="/register/" class="register-button">注册有礼</a>
+							</div>
+							<div class="userinfo-container">
+								<div class="username-container" id="usernameContainer">
+									<span class="link-spacing"></span>
+									<a href="/user/" class="username-text" id="usernameText" target="/user/">
+										<span class="username-text-show text-overflow" id="usernameShow"></span>
+										<span id="userId"></span>
+									</a>
+								</div>
+								<div class="user-panel hide" id="userPanel">
+									<div class="pay-box">
+										<span>￥<span id="userMoney">0.00</span></span>
+										<a href="/user/payment/" target="/user/">充值</a>
+									</div>
+									<div class="user-panel-body">
+										<ul class="shortcut-menu-list">
+											<li class="shortcut-menu-item">
+												<a class="user-icon-01" href="/user/serverManage/" target="/user/">
+													产品管理
+													<span class="user-record-count" id="serverCount">-</span>
+												</a>
+											</li>
+											<li class="shortcut-menu-item">
+												<a class="user-icon-02" href="/user/order/" target="/user/">
+													未支付订单
+													<span class="user-record-count" id="orderCount">-</span>
+												</a>
+											</li>
+											<li class="shortcut-menu-item">
+												<a class="user-icon-03" href="/user/message/" target="/user/">
+													消息中心
+													<span class="user-record-count" id="msgCount">-</span>
+												</a>
+											</li>
+											<li class="shortcut-menu-item">
+												<a class="user-icon-04" href="/user/workorder/add.html" target="/user/">提交工单</a>
+											</li>
+										</ul>
+										<div class="user-panel-bottom">
+											<span class="auth-status">已实名认证</span>
+											<a class="new-auth" href="/user/auth/newAuth" target="/user/">实名认证>></a>
+											<a class="exit-btn pull-right" href="/user/logout/">退出</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="topbar-right">
+							<a href="/user/icp/" target="_blank" class="link-items">备案</a>
+							<span class="link-spacing"></span>
+							<a href="/user/" target="_blank" class="link-items">控制台</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner图 -->
+		<ul class="banner-ul clearfix" id="slider-back">
+			<!--<li class="banner-2019spring"></li>-->
+			<!--<li class="banner-huadong"></li>-->
+			<li class="banner-cloudapp"></li>
+			<!-- <li class="banner-loadbalance"></li>
+			<li class="banner-trust"></li> -->
+			<!--<li class="banner-cps"></li>-->
+			<!--<li class="banner-domain"></li>-->
+			<!--<li class="banner-server"></li>
+			<li class="banner-idc"></li>-->
+			<!--<li class="banner-new-official"></li>-->
+			<li class="banner-easyCloud"></li>
+		</ul>
+		<!-- 对应banner文字 -->
+		<div class="slider-main auto">
+			<!--<div class="banner-text link-banner" data-url="/act/spring">-->
+			<!--</div>-->
+			<!--<div class="banner-text link-banner" data-url="/server/buy.hml">
+			</div>
+			<div class="banner-text link-banner" data-url="/idc/buy.hml">
+			</div>-->
+			<div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >五年同行,质造未来</p>
+					<p class=" banner-text2" >
+							以品质为核心打造高性价比产品与服务
+					</p>
+					<a class="banner-link-button" target="_blank" href="/act/5years">参与活动</a>
+				</div>
+			</div>
+			<div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >轻松上云</p>
+					<p class=" banner-text2" >
+							注册即领<span class="banner-num"> 9870元 </span>大礼包，含无门槛代金券
+					</p>
+					<a class="banner-link-button" target="_blank" href="/register">立即注册</a>
+				</div>
+			</div>
+			<!-- <div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >负载均衡产品正式上线</p>
+					<p class=" banner-text2" >
+						无缝提供分配应用程序所需的负载容量，提升应用系统的可用性
+					</p>
+					<a class="banner-link-button" target="_blank" href="/loadbalance/">点击查看</a>
+				</div>
+			</div>
+			<div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >云帮手正式公测</p>
+					<p class=" banner-text2" >
+							提供跨云多平台一站式批量云服务器安全管理服务
+					</p>
+					<a class="banner-link-button" target="_blank" href="/cloudappcode">参与公测</a>
+				</div>
+			</div> -->
+			<!-- <div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >信任中心</p>
+					<p style="line-height: 36px;" class=" banner-text2" >严格经过16+2维度测试<br/>为您提供合规、可用、安全、可信的云计算服务</p>
+					<a class="banner-link-button" target="_blank" href="/trustcenter/">立即查看</a>
+				</div>
+			</div> -->
+			<!---->
+
+			<!--<div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >CPS推广</p>
+					<p class=" banner-text2" ><span style="color: #ffd400;">5日结算随时提现</span>   现在加入共赢云计算市场蓝海</p>
+					<a class="banner-link-button" target="_blank" href="/act/cps/">立即加入</a>
+				</div>
+			</div>
+			-->
+			<!--<div class="banner-text">
+				<div class="slider-text" data-start_top="30" data-to_top="0" data-start_left="0" data-to_left="0">
+					<p class="banner-text1" >一个域名 成就你的无限可能</p>
+					<p class=" banner-text2" >一站式域名服务，提供近百种全球域名、国别域名及中文域名</p>
+					<a class="banner-link-button" target="_blank" href="/domain/">立即注册</a>
+				</div>
+			</div>-->
+			<!--<div class="banner-text">
+				<div class="slider-text" data-start_top="0" data-to_top="0" data-start_left="-200" data-to_left="0">
+					<p class="banner-text1" >轻松享有高性能企业级云服务器</p>
+					<p class=" banner-text2" >支持五天无理由退款，100倍事故赔偿，1V1专席秘书</p>
+					<a class="banner-link-button" href="/server/">查看详情</a>
+				</div>
+			</div>
+			<div class="banner-text">
+				<div class="slider-text" data-start_top="0" data-to_top="0" data-start_left="100" data-to_left="0">
+					<p class="banner-text1" >高性价比一站式托管服务</p>
+					<p class=" banner-text2" >专业定制托管方案，低资费，独享带宽，资源弹性扩张</p>
+					<a class="banner-link-button" href="/idc/">查看详情</a>
+				</div>
+			</div>-->
+			<!--<div class="banner-text">
+				<div class="slider-text" data-start_top="0" data-to_top="0" data-start_left="100" data-to_left="0">
+					<p class="banner-text1" >小鸟云官网 全新升级上线</p>
+					<p class=" banner-text2" >欢迎广大用户提供宝贵的意见和建议</p>
+					<a class="banner-link-button" href="/about/feedback.html">新版反馈</a>
+				</div>
+			</div>-->
+		</div>
+		<!-- banner索引 -->
+		<div class="banner-point">
+			<div class="auto">
+				<ul class="banner-area" id="slider-btn">
+					<li class="active" data-delay="12000"></li>
+					<li class=""></li>
+					<!-- <li class=""></li> -->
+				</ul>
+			</div>
+		</div>
+
+		<div class="service-action">
+			<div class="auto">
+				<ul class="service-action-ul clearfix">
+					<li>
+						<a href="/register/" target="_blank" class="subbanner-link-main subbanner-1">
+							<div class="service-action-box">
+								<div class="service-action-text">
+									<p class="service-action-title">注册有礼</p>
+									<div class="service-action-info">领9870元大礼包</div>
+									<div class="service-action-link">免费注册</div>
+								</div>
+							</div>
+							<span class="subbanner-link-icon"></span>
+						</a>
+					</li>
+					<li>
+						<a href="/act/cps/" target="_blank" class="subbanner-link-main subbanner-2">
+							<div class="service-action-box">
+								<div class="service-action-text">
+									<p class="service-action-title">CPS推广</p>
+									<div class="service-action-info">双重折扣更享高额返现</div>
+									<div class="service-action-link">获取代理</div>
+								</div>
+							</div>
+							<span class="subbanner-link-icon"></span>
+						</a>
+					</li>
+					<li>
+						<a href="/oem/" target="_blank" class="subbanner-link-main subbanner-3">
+							<div class="service-action-box">
+								<div class="service-action-text">
+									<p class="service-action-title">OEM合作</p>
+									<div class="service-action-info">轻松自建云计算品牌</div>
+									<div class="service-action-link">立即申请</div>
+								</div>
+							</div>
+							<span class="subbanner-link-icon"></span>
+						</a>
+					</li>
+					<li>
+						<a class="special subbanner-link-main subbanner-4" href="/support/vip.html" target="_blank">
+							<div class="service-action-box">
+								<div class="service-action-text">
+									<p class="service-action-title">VIP服务</p>
+									<div class="service-action-info">尊享7*24小时专业服务</div>
+									<div class="service-action-link">点击咨询</div>
+								</div>
+							</div>
+							<span class="subbanner-link-icon"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- header end-->
+<!--优势 start-->
+<div class="superiority-div-wrapper">
+	<ul class="auto">
+		<li class="superiority-li-item superiority-li-item-01">
+			<div class="animate-wrapper-div animate-wrapper-div-01">
+				<div class="animate-item-div animate01-big-white"></div>
+				<div class="animate-item-div animate01-small-white"></div>
+				<div class="animate-item-div animate01-big-blue"></div>
+				<div class="animate-item-div animate01-small-blue"></div>
+			</div>
+			<p class="superiority-big-num">10<span class="add-text">+</span></p>
+			<p class="superiority-small-text">十年行业经验技术积累</p>
+		</li>
+		<li class="superiority-li-item superiority-li-item-02">
+			<div class="animate-wrapper-div animate-wrapper-div-02">
+				<div class="animate-item-div animate02-white-01"></div>
+				<div class="animate-item-div animate02-white-02"></div>
+				<div class="animate-item-div animate02-big-blue"></div>
+			</div>
+			<p class="superiority-big-num">1<span class="dot-text">,</span>000<span class="dot-text">,</span>000<span class="add-text">+</span></p>
+			<p class="superiority-small-text">IP储备丰余</p>
+		</li>
+		<li class="superiority-li-item superiority-li-item-03">
+			<div class="animate-wrapper-div animate-wrapper-div-03">
+				<div class="animate-item-div animate03-white-01"></div>
+				<div class="animate-item-div animate03-white-02"></div>
+				<div class="animate-item-div animate03-white-03"></div>
+				<div class="animate-item-div animate03-big-blue"></div>
+			</div>
+			<p class="superiority-big-num">100<span class="dot-text">,</span>000<span class="add-text">+</span></p>
+			<p class="superiority-small-text">数十万用户的信赖之选</p>
+		</li>
+		<li class="superiority-li-item superiority-li-item-04">
+			<div class="animate-wrapper-div animate-wrapper-div-04">
+				<div class="animate-item-div animate04-white-01"></div>
+				<div class="animate-item-div animate04-white-02"></div>
+				<div class="animate-item-div animate04-big-blue"></div>
+				<div class="animate-item-div animate04-small-blue"></div>
+				<div class="animate-item-div animate04-arrow-blue-01"></div>
+				<div class="animate-item-div animate04-arrow-blue-02"></div>
+				<div class="animate-item-div animate04-arrow-blue-03"></div>
+			</div>
+			<p class="superiority-big-num">300<span class="dot-text">,</span>000<span class="dot-text">,</span>000<span class="add-text">+</span></p>
+			<p class="superiority-small-text">耗资亿万打造高品质基础设施</p>
+		</li>
+	</ul>
+
+</div>
+<!--优势 end-->
+<!--云产品 start-->
+<div class="cloud-product-box">
+	<div class="cloud-product-wrapper">
+		<div class="cloud-product">
+			<p class="cloud-product-title"><span>提供国内卓越、快速、稳定的云计算产品</span></p>
+			<p class="cloud-product-explain">计算、存储、监控、安全，完善的云产品满足你业务的全面需求</p>
+			<ul class="cloud-product-ul clearfix">
+				<li data-index="1" class="active">
+					<div class="normal-inner">
+						<div class="cloud-product-single-bottom clearfix">
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-01"></div>
+							</div>
+							<h2 class="product-introduce-title">云服务器</h2>
+							<p class="product-introduce-content">高速稳定高弹性的计算服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-small">强大的计算性能</p>
+								<p class="introduce-list-small">弹性的按需扩展</p>
+								<p class="introduce-list-small">更低的网络时延</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-blue">49</span>元 /月起
+							</p>
+						</div>
+					</div>
+					<div class="active-inner active-inner-01 clearfix">
+						<div class="active-inner-item">
+							<a class="introduce-link" target="_blank" href="/server/"></a>
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-active-01"></div>
+							</div>
+							<h2 class="product-introduce-title active-product-introduce-title ">云服务器</h2>
+							<p class="product-introduce-content">高速稳定高弹性的计算服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-large">
+									采用由数据切片技术构建的三层存储功能，切实保护客户数据的安全。同时可弹性扩展的资源用量，为客户业务在高峰期的顺畅保驾护航
+								</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-white">49</span>元 /月起
+							</p>
+							<a target="_blank" href="/server/buy.html" class="btn buy-link-btn">立即选购</a>
+						</div>
+					</div>
+				</li>
+				<li data-index="2">
+					<div class="normal-inner">
+						<div class="cloud-product-single-bottom clearfix">
+							<div class="empty-space">
+								<div class="bg-product-pic  server-header-02"></div>
+							</div>
+							<h2 class="product-introduce-title">服务器托管</h2>
+							<p class="product-introduce-content">安全贴心高品质的托管服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-small">完善的机房设施</p>
+								<p class="introduce-list-small">强悍的硬件支持</p>
+								<p class="introduce-list-small">安全的BGP网络</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-blue">450</span>元 /月起
+							</p>
+						</div>
+					</div>
+					<div class="active-inner active-inner-02 clearfix">
+						<div class="active-inner-item">
+							<a class="introduce-link" target="_blank" href="/idc/"></a>
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-active-02"></div>
+							</div>
+							<h2 class="product-introduce-title active-product-introduce-title ">服务器托管</h2>
+							<p class="product-introduce-content">安全贴心高品质的托管服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-large">
+									T3+级别数据中心，具备完善的机房设施。安全的BGP网络能有效保证高品质的网络环境和丰富的带宽资源
+								</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-white">450</span>元 /月起
+							</p>
+							<a target="_blank" href="/idc/buy.html" class="btn buy-link-btn">立即选购</a>
+						</div>
+					</div>
+				</li>
+				<li data-index="3">
+					<div class="normal-inner">
+						<div class="cloud-product-single-bottom clearfix">
+							<div class="empty-space">
+								<div class="bg-product-pic  server-header-03"></div>
+							</div>
+							<h2 class="product-introduce-title">云虚拟主机</h2>
+							<p class="product-introduce-content">基于云计算的虚拟主机服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-small">卓越的性能体验</p>
+								<p class="introduce-list-small">出色的防御能力</p>
+								<p class="introduce-list-small">丰富的带宽资源</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-blue">7</span>元 /月起
+							</p>
+						</div>
+					</div>
+					<div class="active-inner active-inner-03 clearfix">
+						<div class="active-inner-item">
+							<a class="introduce-link" target="_blank" href="/host/"></a>
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-active-03"></div>
+							</div>
+							<h2 class="product-introduce-title active-product-introduce-title ">云虚拟主机</h2>
+							<p class="product-introduce-content">基于云计算的虚拟主机服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-large">
+									架设在小鸟云高可用云服务器之上，具备高在线率、高安全性、高稳定性等多项优势，提供独立IP，特别适用于对网站运行质量有较高要求的用户
+								</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-white">7</span>元 /月起
+							</p>
+							<a target="_blank" href="/host/buy.html" class="btn buy-link-btn">立即选购</a>
+						</div>
+					</div>
+				</li>
+				<li data-index="4">
+					<div class="normal-inner">
+						<div class="cloud-product-single-bottom clearfix">
+							<div class="empty-space">
+								<div class="bg-product-pic  server-header-04"></div>
+							</div>
+							<h2 class="product-introduce-title">SSL证书</h2>
+							<p class="product-introduce-content">提供一站式的证书部署服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-small">顶级CA机构授权颁发</p>
+								<p class="introduce-list-small">加密保护数据传输安全</p>
+								<p class="introduce-list-small">支持所有浏览器和移动设备</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-blue">1</span>元 /年起
+							</p>
+						</div>
+					</div>
+					<div class="active-inner  active-inner-04 clearfix">
+						<div class="active-inner-item">
+							<a class="introduce-link" target="_blank" href="/ssl/"></a>
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-active-04"></div>
+							</div>
+							<h2 class="product-introduce-title active-product-introduce-title ">SSL证书</h2>
+							<p class="product-introduce-content">提供一站式的证书部署服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-large">
+									实现网站HTTPS化，使网站可信，防劫持、防篡改、防监听。并对云上证书进行统一生命周期管理，简化证书部署，一键分发到云上产品
+								</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-white">1</span>元 /年起
+							</p>
+							<a target="_blank" href="/ssl/buy.html" class="btn buy-link-btn">立即选购</a>
+						</div>
+					</div>
+				</li>
+				<li data-index="5">
+					<div class="normal-inner">
+						<div class="cloud-product-single-bottom clearfix">
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-05"></div>
+							</div>
+							<h2 class="product-introduce-title">域名注册</h2>
+							<p class="product-introduce-content">提供五星级的域名注册服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-small">域名实时过户</p>
+								<p class="introduce-list-small">智能双线解析</p>
+								<p class="introduce-list-small">whois隐私保护</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-blue">15</span>元 /年起
+							</p>
+						</div>
+					</div>
+					<div class="active-inner active-inner-05 clearfix">
+						<div class="active-inner-item">
+							<a class="introduce-link" target="_blank" href="/domain/"></a>
+							<div class="empty-space">
+								<div class="bg-product-pic server-header-active-05"></div>
+							</div>
+							<h2 class="product-introduce-title active-product-introduce-title ">域名注册</h2>
+							<p class="product-introduce-content">提供五星级的域名注册服务</p>
+							<div class="product-introduce-list">
+								<p class="introduce-list-large">
+									快速的解析响应速度，便捷的域名自助管理平台，免费的域名隐私保护服务，坚持让您花少量的费用，享更好的产品和服务
+								</p>
+							</div>
+							<p class="product-introduce-price">
+								<span class="price-white">15</span>元 /年起
+							</p>
+							<a target="_blank" href="/domain/" class="btn buy-link-btn">立即选购</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--云产品 end-->
+<!--网络品质安全-->
+<div class="hide">
+	<img src="images/storage_empty_box.png"/>
+	<img src="images/storage_box.png"/>
+	<img src="images/safe_animate_01.png"/>
+	<img src="images/safe_animate_02.png"/>
+	<img src="images/safe_animate_03.png"/>
+	<img src="images/safe_animate_04.png"/>
+	<img src="images/safe_animate_05.png"/>
+	<img src="images/safe_animate_06.png"/>
+	<img src="images/safe_animate_07.png"/>
+	<img src="images/server_animate_01.png"/>
+	<img src="images/server_animate_02.png"/>
+	<img src="images/server_animate_03.png"/>
+	<img src="images/server_animate_04.png"/>
+	<img src="images/server_animate_05.png"/>
+	<img src="images/net_connect_move_light.png"/>
+	<img src="images/storage_light_box.png"/>
+</div>
+<div class="net-safety-box">
+
+	<p class="net-safety-title"><span>以严苛标准打造强悍性能体验</span></p>
+	<p class="net-safety-explain">高标准设备、架构与灾备机制，为您提供全面而立体的保障</p>
+	<div class="auto">
+		<div class="net-safety-animate-wrapper">
+			<div class="net-black-div-box"></div>
+			<div class="net-safety-animate-wrapper-bg-01"></div>
+			<div class="net-safety-animate-wrapper-bg-02"></div>
+			<div class="animate-inner-box storage-animate-box">
+				<div class="animate-item storage-animate-item storage-animate-item-01"></div>
+				<div class="animate-item storage-animate-item storage-animate-item-02"></div>
+				<div class="animate-item storage-animate-item storage-animate-item-03"></div>
+			</div>
+			<div class="animate-inner-box safe-animate-box"></div>
+			<div class="animate-inner-box server-animate-box"></div>
+			<div class="animate-inner-box net-connect-animate-box"></div>
+			<div class="connect-bg-01"></div>
+			<div class="connect-bg-02"></div>
+			<div class="net-connect-animate-btn"></div>
+			<div class="yellow-light-wrapper">
+				<div class="yellow-light yellow-light-01"></div>
+				<div class="yellow-light yellow-light-02"></div>
+				<div class="yellow-light yellow-light-03"></div>
+			</div>
+			<div class="net-safety-text net-safety-text1"></div>
+			<div class="net-safety-text net-safety-text2"></div>
+			<div class="net-safety-text net-safety-text3"></div>
+			<div class="net-safety-text net-safety-text4"></div>
+			<div class="net-safety-last-block"></div>
+			<div class="net-safety-light-circle light-circle-01"></div>
+			<div class="net-safety-light-circle light-circle-02"></div>
+			<div class="net-safety-light-circle light-circle-03"></div>
+			<div class="net-safety-light-circle light-circle-04"></div>
+			<div class="net-safety-light-circle light-circle-05"></div>
+			<div class="net-safety-light-circle light-circle-06"></div>
+			<div class="net-safety-light-circle light-circle-07"></div>
+		</div>
+		<div class="net-safety-intro-wrapper">
+			<div class="net-safety-intro-div safety-intro-div-01">
+				<p class="net-safety-intro-title">
+					服务可用性
+				</p>
+				<div class="net-safety-intro-subtitle">
+					<div class="net-safety-subtitle-line"></div>
+					99.99%
+				</div>
+			</div>
+			<div class="net-safety-intro-div safety-intro-div-03">
+				<p class="net-safety-intro-title">
+					网络可用性
+				</p>
+				<div class="net-safety-intro-subtitle">
+					<div class="net-safety-subtitle-line"></div>
+					99.95%
+				</div>
+			</div>
+			<div class="net-safety-intro-div safety-intro-div-04">
+				<p class="net-safety-intro-title">
+					数据持久性
+				</p>
+				<div class="net-safety-intro-subtitle">
+					<div class="net-safety-subtitle-line"></div>
+					99.999%
+				</div>
+			</div>
+		</div>
+		<a target="_blank" href="/trustcenter/" class="net-safety-more-link">了解更多</a>
+	</div>
+</div>
+
+<!--网络品质安全end-->
+<!--解决方案 start-->
+<div style="visibility: hidden; height: 0; overflow: hidden;">
+	<div class="active">
+		<div class="solution-item-wrapper solution-item-01"></div>
+		<div class="solution-item-wrapper solution-item-02"></div>
+		<div class="solution-item-wrapper solution-item-03"></div>
+		<div class="solution-item-wrapper solution-item-04"></div>
+		<div class="solution-item-wrapper solution-item-05"></div>
+	</div>
+	<div class="solution-item-wrapper solution-item-03"></div>
+	<!--<img src="images/solution_item_bg_active_01.jpg"/>
+	<img src="images/solution_item_bg_active_02.jpg"/>
+	<img src="images/solution_item_bg_03.jpg"/>
+	<img src="images/solution_item_bg_active_03.jpg"/>
+	<img src="images/solution_item_bg_active_04.jpg"/>
+	<img src="images/solution_item_bg_active_05.jpg"/>-->
+</div>
+<div id="particles-js" class="cloud-product-box solution-bgcolor">
+	<div class="cloud-product">
+		<p class="cloud-product-title"><span>行业专属解决方案定制</span></p>
+		<p class="cloud-product-explain">
+			针对各行业业务特性，打造个性化行业解决方案，为您提供一站式的产品与服务
+		</p>
+	</div>
+	<div class="auto">
+		<div class="solution-list">
+			<ul id="solutionList" class="clearfix">
+				<li>
+					<div class="solution-item-wrapper solution-item-01">
+						<p class="solution-title">网站解决方案</p>
+						<div class="short-bar"></div>
+						<p class="solution-intro">网站解决方案为企业及开发者提供灵活弹性自动化的基础IT设施建设、按需付费的服务模式及低成本的运维服务体系，帮助客户推动企业核心业务创新发展。</p>
+						<a href="/solutions/website.html" target="_blank">查看详情</a>
+					</div>
+				</li>
+				<li>
+					<div class="solution-item-wrapper solution-item-02">
+						<p class="solution-title">金融云解决方案</p>
+						<div class="short-bar"></div>
+						<p class="solution-intro">金融云为客户提供量身定制的云计算服务，IT硬件零投入，云设施运维零维护，高品质保障的售后服务机制，帮助金融用户高效应用云计算服务。</p>
+						<a href="/solutions/financial.html" target="_blank">查看详情</a>
+					</div>
+				</li>
+				<li  class="active">
+					<div class="solution-item-wrapper solution-item-03">
+						<p class="solution-title">移动云解决方案</p>
+						<div class="short-bar"></div>
+						<p class="solution-intro">移动云应用虚拟化系统为客户提供出众的应用性能及灵活的应用虚拟化服务，帮助客户实现手机、平板电脑等移动设备安全顺畅地访问各种应用软件。</p>
+						<a href="/solutions/mobile.html" target="_blank">查看详情</a>
+					</div>
+				</li>
+				<li>
+					<div class="solution-item-wrapper solution-item-04">
+						<p class="solution-title">电商云解决方案</p>
+						<div class="short-bar"></div>
+						<p class="solution-intro">电商云帮助电商客户快速实现平台搭建、节约成本、应对业务高并发、强化安全防护能力，助力电商客户快速实现金融创新及业务增收的目标。</p>
+						<a href="/solutions/ecommerce.html" target="_blank">查看详情</a>
+					</div>
+				</li>
+				<li class="product-special-li-5">
+					<div class="solution-item-wrapper solution-item-05">
+						<p class="solution-title">游戏云解决方案</p>
+						<div class="short-bar"></div>
+						<p class="solution-intro">游戏云为客户游戏开发、游戏运营提供专属服务集群；多场景多类型的游戏部署解决方案，同时提供尊贵VIP售后服务，为客户游戏稳定运行提供基石。</p>
+						<a href="/solutions/game.html" target="_blank">查看详情</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--解决方案 end-->
+<!--服务平台 start-->
+<div class="map-service">
+	<div class="auto">
+		<div class="map-service-box clearfix">
+			<div class="map-service-left">
+				<div class="map-service-intro-div map-intro-div-01">
+					<p class="map-service-intro-title">
+						专有网络传输通道
+					</p>
+					<div class="map-service-intro-subtitle">
+						采用前沿多网融合技术
+					</div>
+				</div>
+				<div class="map-service-intro-div map-intro-div-02">
+					<p class="map-service-intro-title">
+						T3+数据中心
+					</p>
+					<div class="map-service-intro-subtitle">
+						完备的冗余保护机制
+					</div>
+				</div>
+				<div class="map-service-intro-div map-intro-div-03">
+					<p class="map-service-intro-title">
+						多万兆光纤接入
+					</p>
+					<div class="map-service-intro-subtitle">
+						高密度光纤预连接系统
+					</div>
+				</div>
+				<a target="_blank" href="/datacenter/" class="map-service-more-link">了解更多</a>
+				<div class="map-service-tip-wrapper clearfix">
+					<div class="map-service-tip-item tip-item-01">
+						已开通区域
+					</div>
+					<div class="map-service-tip-item tip-item-02">
+						即将开通区域
+					</div>
+					<div class="map-service-tip-item tip-item-03">
+						待开通区域
+					</div>
+				</div>
+			</div>
+			<div class="map-service-right">
+				<div class="china-map">
+					<div class="region-list postition-1">
+						<div class="area-box">
+							<span class="dot"></span>
+							<span class="pulse delay-01"></span>
+							<span class="pulse delay-02"></span>
+						</div>
+					</div>
+					<!--<div class="region-list active postition-2 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span></div>
+						<div class="show-regin"><span>四川</span></div>
+					</div>-->
+					<div class="region-list postition-3">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
+							<span class="pulse delay-02"></span>
+							</div>
+					</div>
+					<div class="region-list waite postition-4 waite-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
+							<span class="pulse delay-02"></span>
+							</div>
+						<div class="show-regin"><span>陕西</span></div>
+					</div>
+					<div class="region-list active postition-5 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
+							<span class="pulse delay-02"></span>
+							</div>
+						<div class="show-regin"><span>湖北</span></div>
+					</div>
+					 <div class="region-list active postition-6 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span></div>
+						<div class="show-regin"><span>广东</span></div>
+					</div>
+					<div class="region-list active postition-13 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-04"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-03"></span></div>
+						<div class="show-regin"><span>内蒙古</span></div>
+					</div>
+					<!--<div class="region-list  active  postition-11 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span></div>
+						<div class="show-regin"><span>山东</span></div>
+					</div>-->
+					<div class="region-list active postition-7 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
+							<span class="pulse delay-09"></span>
+							<span class="pulse delay-08"></span></div>
+						<div class="show-regin"><span>辽宁</span></div>
+					</div>
+					<div class="region-list active postition-8 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span></span></div>
+						<div class="show-regin"><span>北京</span></div>
+					</div>
+					<div class="region-list active postition-9 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
+							<span class="pulse delay-09"></span>
+							<span class="pulse delay-08"></span></div>
+						<div class="show-regin"><span>江苏</span></div>
+					</div>
+					<div class="region-list active postition-10 online-node">
+						<div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+							<span class="pulse delay-05"></span>
+							<span class="pulse delay-04"></span></div>
+						<div class="show-regin"><span>香港</span></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!--地图 end-->
+<!-- 证书 -->
+<div class="free-certificate">
+	<div class="auto">
+		<div class="cloud-product">
+
+			<p class="cloud-product-title"><span>安全合规的云计算服务</span></p>
+			<p class="cloud-product-explain">国内外权威标准的合规认证，给您安全和合规的保障</p>
+			<div class="certificat-swiper-wrapper">
+				<ul class="certificat-swiper-inner clearfix">
+					<li class="certificat-item">
+						<a target="_blank" href="https://www.kexinyun.org/">
+				    		<div class="certificat-item-wrapper">
+				    			<div class=" certificat-pic certificat-pic6">
+
+					    		</div>
+					    		<div class=" certificat-introduce">
+					    			<p class="certificat-introduce-top">TRUCS</p>
+					    			<p class="certificat-introduce-bottom">可信云服务认证</p>
+					    		</div>
+				    		</div>
+			    		</a>
+			    	</li>
+			    	<li class="certificat-item">
+			    		<div class="certificat-item-wrapper">
+			    			<div class=" certificat-pic certificat-pic1">
+
+				    		</div>
+				    		<div class=" certificat-introduce">
+				    			<p class="certificat-introduce-top">ISP/IDC资质</p>
+				    			<p class="certificat-introduce-bottom">全国ISP/IDC资质持有企业</p>
+				    		</div>
+			    		</div>
+			    	</li>
+			    	<li class="certificat-item">
+			    		<div class="certificat-item-wrapper">
+			    			<div class=" certificat-pic certificat-pic2">
+
+				    		</div>
+				    		<div class=" certificat-introduce">
+				    			<p class="certificat-introduce-top">软件著作权证书</p>
+				    			<p class="certificat-introduce-bottom">小鸟云系统软件著作权登记证书</p>
+				    		</div>
+			    		</div>
+
+			    	</li>
+			    	<li class="certificat-item">
+			    		<div class="certificat-item-wrapper">
+			    			<div class=" certificat-pic certificat-pic3">
+
+				    		</div>
+				    		<div class=" certificat-introduce">
+				    			<p class="certificat-introduce-top">ISO 27001</p>
+				    			<p class="certificat-introduce-bottom">信息安全管理体系国际认证</p>
+				    		</div>
+			    		</div>
+
+			    	</li>
+			    	<li class="certificat-item">
+			    		<div class="certificat-item-wrapper">
+			    			<div class=" certificat-pic certificat-pic4">
+
+				    		</div>
+				    		<div class=" certificat-introduce">
+				    			<p class="certificat-introduce-top">ISO 9001</p>
+				    			<p class="certificat-introduce-bottom">质量保证体系国际认证</p>
+				    		</div>
+			    		</div>
+
+			    	</li>
+			    	<li  class="certificat-item">
+			    		<div class="certificat-item-wrapper">
+			    			<div class=" certificat-pic certificat-pic5">
+
+				    		</div>
+				    		<div class=" certificat-introduce">
+				    			<p class="certificat-introduce-top">CNNIC</p>
+				    			<p class="certificat-introduce-bottom">IP地址分配联盟成员证书</p>
+				    		</div>
+			    		</div>
+			    	</li>
+		    	</ul>
+			</div>
+			<div class="certificat-active-btn-wrapper clearfix">
+	    		<div class="certificat-btn active" data-index="1"></div>
+	    		<div class="certificat-btn "></div>
+	    	</div>
+
+	    </div>
+	</div>
+</div>
+<!-- end -->
+<!--合作伙伴 start-->
+<div class="cooperative-partner">
+	<div class="auto">
+		<div class="cloud-product">
+			<p class="cloud-product-title"><span>携手合作伙伴共建双赢云端生态</span></p>
+			<p class="cloud-product-explain">致力于帮助合作伙伴及用户构建基于小鸟云计算的成功业务实践和解决方案</p>
+			<ul class="cooperative-partner-list clearfix">
+				<li class="cooperative-partner-item item-01 active"></li>
+				<li class="cooperative-partner-item item-02"></li>
+				<li class="cooperative-partner-item item-03"></li>
+				<li class="cooperative-partner-item item-04"></li>
+				<li class="cooperative-partner-item item-05"></li>
+				<li class="cooperative-partner-item item-06"></li>
+				<li class="cooperative-partner-item item-11"></li>
+				<li class="cooperative-partner-item item-08"></li>
+				<li class="cooperative-partner-item item-09"></li>
+				<li class="cooperative-partner-item item-10"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--合作伙伴 end-->
+<!--新闻动态 start-->
+<div class="news-trends">
+	<div class="auto">
+		<div class="cloud-product">
+			<p class="cloud-product-title">小鸟云动态</p>
+			<p class="cloud-product-explain">为您提供行业资讯、活动公告、产品发布，以及汇聚前沿的云计算技术</p>
+			<div class="news-trends-list clearfix">
+								<div class="press-release">
+							<a class="press-release-title-wrapper clearfix" href="/news/notice/">
+								<div class="press-release-title pull-left">
+									<div class="blue-bg">
+
+									</div>
+									<div class="press-release-word">
+										官方公告									</div>
+								</div>
+								<div class="release-title-bg title-bg-1 pull-left">
+
+								</div>
+															</a>
+							<ul class="press-release-list clearfix">
+								<li class="clearfix">
+																					<a href="/news/notice/197.html" target="_blank" title="关于用户通过非官方渠道购买产品受骗的重要声明"><i>【07-18】</i><span>关于用户通过非官方渠道购买产品受骗的重要声明</span></a>									</li><li class="clearfix">
+																					<a href="/news/notice/210.html" target="_blank" title="关于中国大连、中国沈阳节点维护的通知"><i>【10-29】</i><span>关于中国大连、中国沈阳节点维护的通知</span></a>									</li><li class="clearfix">
+																					<a href="/news/notice/202.html" target="_blank" title="小鸟云2019年国庆假期公告"><i>【09-25】</i><span>小鸟云2019年国庆假期公告</span></a>									</li><li class="clearfix">
+																					<a href="/news/notice/193.html" target="_blank" title="关于小鸟云东北节点网络异常的公告"><i>【07-10】</i><span>关于小鸟云东北节点网络异常的公告</span></a>									</li>							</ul>
+						</div><div class="press-release">
+							<a class="press-release-title-wrapper clearfix" href="/news/industry/">
+								<div class="press-release-title pull-left">
+									<div class="blue-bg">
+
+									</div>
+									<div class="press-release-word">
+										业界新闻									</div>
+								</div>
+								<div class="release-title-bg title-bg-2 pull-left">
+
+								</div>
+															</a>
+							<ul class="press-release-list clearfix">
+								<li class="clearfix">
+																					<a href="/news/industry/189.html" target="_blank" title="Linux内核中TCP SACK机制远程DoS预警通告"><i>【06-22】</i><span>Linux内核中TCP SACK机制远程DoS预警通告</span></a>									</li><li class="clearfix">
+																					<a href="/news/industry/185.html" target="_blank" title="​Windows远程桌面服务漏洞预警通告"><i>【05-15】</i><span>​Windows远程桌面服务漏洞预警通告</span></a>									</li><li class="clearfix">
+																					<a href="/news/industry/173.html" target="_blank" title="云计算市场爆发，小鸟云应用开启高效云管理模式"><i>【05-31】</i><span>云计算市场爆发，小鸟云应用开启高效云管理模式</span></a>									</li><li class="clearfix">
+																					<a href="/news/industry/168.html" target="_blank" title="小鸟云加速推进IPv6部署 为国内互联网带来更多机遇"><i>【12-08】</i><span>小鸟云加速推进IPv6部署 为国内互联网带来更多机遇</span></a>									</li>							</ul>
+						</div>				<div class="press-release">
+					<p class="activity-title">
+						<!--<a target="_blank" href="/act/spring">-->
+						 <a target="_blank" href="/act/5years">
+							 <img src="images/small_5years.jpg" title="高性能云服务器" alt="高性能云服务器" width="100%" height="100%"/>
+							<!--<img src="images/act_img_2019spring_v2.jpg" title="企业采购专场" alt="企业采购专场" width="100%" height="100%"/>-->
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--新闻动态 end-->
+<!-- footer -->
+<!-- <div class="footer-banner">
+	<div class="footer-bubble bubble-1"></div>
+	<div class="footer-bubble bubble-2"></div>
+	<div class="footer-bubble bubble-3"></div>
+	<div class="footer-banner-text">
+		为您提供出众的上云实践机会和全面的尊贵服务
+	</div>
+	<div class="footer-banner-button">
+		<a target="_blank" href="/register/">免费注册</a>
+	</div>
+</div>
+<div class="footer">
+	<div class="auto clearfix">
+		<ul class="suspension">
+			<li class="default-transition suspension-redpacket">
+				<div class="redpacket-wrap" id="redpacket-wrap">
+					<div class="redpacket-content">
+						<div class="redpacket-num">9870元</div>
+						<div class="redpacket-font">上云大礼包</div>
+					</div>
+				</div>
+			</li>
+			<li class="default-transition suspension-tel">
+				<span class="pop-tel hide-text" title="">小鸟云客服热线</span>
+				<div class="connect-us pop-detail">
+					<ul>
+						<li>
+							<a class="service-phone">
+								<span class="info-name">客服热线</span>
+								<span class="info-value">400-688-3065</span>
+							</a>
+						</li>
+						<li>
+							<a class="service-online" target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=800135558&aty=0&a=0&curl=&ty=1">
+								<span class="info-name">在线客服</span>
+								<span class="info-value">800135558</span>
+							</a>
+						</li>
+						<li class="feedback-item">
+							<a class="service-feedback" href="/about/feedback.html">
+								<span class="info-name">投诉与建议</span>
+								<span class="info-value">最快10分钟内响应</span>
+							</a>
+						</li>
+					</ul>
+					<span class="tel-corner-back"></span>
+					<span class="tel-corner"></span>
+				</div>
+			</li>
+			<li class="default-transition suspension-qrcode">
+				<span class="pop-qrcode hide-text" title="关注小鸟云微信公众号">关注小鸟云微信公众号</span>
+				<div class="qrcode pop-detail">小鸟云微信公众号</div>
+			</li>
+			<li class="default-transition suspension-car hide">
+				<span class="buy-car" title="购物车"></span>
+			</li>
+			<li class="default-transition">
+				<span class="to-top" id="toTop" title="返回顶部"></span>
+			</li>
+		</ul>
+		<!-- footer主要-->
+		<!-- <div class="five-superiority">
+			<ul class="five-superiority-list clearfix">
+				<li class="technology_ico">
+					<a target="_blank" class="superiority-text" href="/support/vip.html#service">
+						<span>7*24小时服务支持</span>
+					</a>
+				</li>
+				<li class="prepare_ico">
+					<a target="_blank" href="/support/vip.html#icp">
+						<span>0元快速备案</span>
+					</a>
+				</li>
+				<li class="compensate_ico">
+					<a target="_blank" href="/support/vip.html#compensate">
+						<span>100倍故障赔偿</span>
+					</a>
+				</li>
+				<li class="retreat_ico">
+					<a target="_blank" href="/support/vip.html#refund">
+						<span>5天无理由退款</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-floor1">
+			<div class="footer-left">
+				<div class="company-box">
+					<div class="company-logo">
+						<span></span>
+					</div>
+					<div class="company-name">
+						深圳前海小鸟云计算有限公司<br>
+						Tel：400-688-3065（7x24h）
+					</div>
+				</div>
+				<div class="official-plat">
+					<p class="weixin" style="background-image: "><span
+						class="corner wx-corner"></span></p>
+					<p class="weibo" style="background-image: "><span
+						class="corner wb-corner"></span></p>
+					<ul class="clearfix">
+						<li><a target="_blank" href="http://weibo.com/u/5669098530"><span class="weibo-logo"></span></a></li>
+						<li><a href="#a_null"><span class="weixin-logo"></span></a></li>
+						<li title="点击打开官方客服"><a target="_blank" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=800135558&aty=0&a=0&curl=&ty=1"><span
+							class="qq-logo"></span></a></li>
+						<li title="点击打开官方邮箱"><a target="_blank" href="mailto:hi@niaoyun.com"><span class="email-logo"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-list">
+				<ul>
+					<li class="flist-title">产品与服务</li>
+					<li><a target="_blank" href="/server/"><strong>弹性云服务器</strong></a></li>
+					<li><a target="_blank" href="/idc/"><strong>服务器托管</strong></a></li>
+					<li><a target="_blank" href="/host/"><strong>云虚拟主机</strong></a></li>
+					<li><a target="_blank" href="/ssl/"><strong>SSL证书</strong></a></li>
+					<li><a target="_blank" href="/domain/"><strong>域名注册</strong></a></li>
+					<li><a target="_blank" href="/monitor/"><strong>云监控</strong></a></li>
+					<li><a target="_blank" href="/cloudAppCode/"><strong>云帮手</strong></a></li>
+				</ul>
+				<ul >
+					<li class="flist-title">帮助与支持</li>
+					<li><a target="_blank" href="/docs/16088.html">会员注册</a></li>
+					<li><a target="_blank" href="/docs/15929.html">备案问题</a></li>
+					<li><a target="_blank" href="/docs/15923.html">虚拟主机问题</a></li>
+					<li><a target="_blank" href="/docs/15730.html">云服务器问题</a></li>
+					<li><a target="_blank" href="/docs/15927.html">服务器托管问题</a></li>
+					<li><a target="_blank" href="/docs/15924.html">SSL证书问题</a></li>
+					<li><a target="_blank" href="/docs/15925.html">域名问题</a></li>
+				</ul>
+				<ul>
+					<li class="flist-title">关于小鸟云</li>
+					<li><a target="_blank" href="/about/">公司简介</a></li>
+					<li><a target="_blank" href="/about/contact.html">联系我们</a></li>
+					<li><a target="_blank" href="/about/course.html">发展历程</a></li>
+					<li><a target="_blank" href="/about/join.html">加入我们</a></li>
+					<li><a target="_blank" href="/about/certificate.html">合规资质</a></li>
+					<li><a target="_blank" href="/news/">新闻动态</a></li>
+					<li><a target="_blank" href="/about/links.html">友情链接</a></li>
+				</ul>
+				<ul class="flist-4">
+					<li class="flist-title">其他</li>
+					<li><a target="_blank" href="/trustcenter/">信任中心</a></li>
+					<li><a target="_blank" href="/support/vip.html">会员服务</a></li>
+					<li><a target="_blank" href="/server/price.html">产品价格</a></li>
+					<li><a target="_blank" href="/datacenter/">数据中心</a></li>
+					<li><a target="_blank" href="/docs/16773.html">服务协议</a></li>
+					<li><a target="_blank" href="/about/feedback.html">意见反馈</a></li>
+					<li><a target="_blank" href="http://www.ip138.com/idc/">IDC公司</a></li>
+				</ul>
+				<div class="clear-float"></div>
+			</div>
+			<div class="clear-float"></div>
+		</div>
+	</div>
+	<div class="footer-floor2">
+		<p>Copyright &copy; 2013-2019 Niaoyun.com. All Rights Reserved. 小鸟云 版权所有</p>
+		<p>
+			《中华人民共和国增值电信业务经营许可证》粤B1-20160477&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备15070606号</a>
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502000120" class="foot-link"
+			   target="_blank">
+				粤公网安备 44030502000120号
+			</a>
+		</p>
+		<p>
+				小鸟云由<a href="https://www.seowhy.com" rel="nofollow" target="_blank">搜外提供SEO技术支持</a>
+			</p>
+	</div>
+	<div class="act-modal hide" id="act-modal">
+		<div class="content-wrap">
+			<div class="modal-close" id="modal-close"></div>
+			<div class="modal-title">9870元上云大礼包</div>
+			<div class="modal-tips"><a href="javascript:;" id="modal-tips-btn">活动规则</a></div>
+			<div class="main-wrap clearfix">
+				<div class="main-item fl">
+					<div class="item-title-wrap"><span class="main-item-title1"></span></div>
+					<ul class="clearfix">
+						<!-- <li>
+							<div><i>￥</i>30 <span>云服务器</span></div>
+							<div>无门槛代金券</div>
+						</li> -->
+						<!-- <li>
+							<div><i>￥</i>30 </div>
+							<div>无门槛代金券</div>
+						</li>
+						<li>
+							<div><i>￥</i>30 </div>
+							<div>无门槛代金券</div>
+						</li>
+						<li>
+							<div><i>￥</i>30 </div>
+							<div>无门槛代金券</div>
+						</li>
+						<li>
+							<div><i>￥</i>100 </div>
+							<div>消费满200元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>150 </div>
+							<div>消费满300元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>200</div>
+							<div>消费满400元可用</div>
+						</li>
+					</ul>
+					<a class="model-item-btn" id="model-item-btn1">注册领取</a>
+				</div>
+				<div class="main-item fl">
+					<div class="item-title-wrap"><span class="main-item-title2"></span></div>
+					<ul class="clearfix">
+						<li>
+							<div><i>￥</i>250 </div>
+							<div>消费满500元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>400 </div>
+							<div>消费满800元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>600 </div>
+							<div>消费满1200元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>1000 </div>
+							<div>消费满2000元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>1500</div>
+							<div>消费满3000元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>2500 </div>
+							<div>消费满5000元可用</div>
+						</li>
+					</ul>
+					<a data-value="1" class="model-item-btn toGet" id="model-item-btn2">
+													立即领取					</a>
+				</div>
+				<div class="main-item fl">
+					<div class="item-title-wrap"><span class="main-item-title3"></span></div>
+					<ul class="clearfix">
+						<li>
+							<div><i>￥</i>100</div>
+							<div>消费满200元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>180</div>
+							<div>消费满360元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>300</div>
+							<div>消费满600元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>500</div>
+							<div>消费满1000元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>750</div>
+							<div>消费满1500元可用</div>
+						</li>
+						<li>
+							<div><i>￥</i>1250 </div>
+							<div>消费满2500元可用</div>
+						</li>
+					</ul>
+					<a data-value="2" class="model-item-btn toGet" id="model-item-btn3">
+													立即领取					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tips-modal hide" id='tips-modal'>
+		<div class="tips-modal-close" id="tips-modal-close"></div>
+		<div class="tips-model-title">活动规则</div>
+		<div class="tips-model-content">
+			<div class="tips-model-item">
+				<div class="tips-model-lable fl">活动对象：</div>
+				<div class="tips-model-font">小鸟云官网注册用户</div>
+			</div>
+			<div class="tips-model-item">
+				<div class="tips-model-lable fl">活动规则：</div>
+				<div class="tips-model-fontwrap fl">
+					<div class="tips-model-font">1.代金券礼包分为新人礼券、续费满减代金券和升级满减代金券，其中新人礼券仅限2019年9月18日10点后注册的官网用户领取使用，同一账号仅限领取一次代金券礼包(同一实名账户、同一手机号码视为同一个用户)；
+					</div>
+					<div class="tips-model-font">2.新人礼券仅限云服务器订单使用，其中30元无门槛代金券使用时，订单金额需大于代金券金额；</div>
+					<div class="tips-model-font">3.续费满减代金券仅限云服务器续费订单使用；</div>
+					<div class="tips-model-font">4.升级满减代金券仅限云服务器升级订单使用；</div>
+					<div class="tips-model-font">5.本次活动代金券不与其他优惠活动叠加使用；</div>
+					<div class="tips-model-font">6.同一订单仅限使用一张代金券；</div>
+					<div class="tips-model-font">7.本次活动代金券使用期为自领取当日一个月内，到期作废，请用户尽快使用；</div>
+					<div class="tips-model-font">8.本次活动代金券仅用于用户本账户下使用，不得转让或出售；</div>
+					<div class="tips-model-font">9.本活动最终解释权归小鸟云所有；</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>  --> 
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dialog.js"></script>
+	<script src="js/iframeTools.js"></script>
+	<!-- <script src="js/jquery.cookie.js"></script> -->
+
+	<script src="js/public.min.js"></script>
+	<script src="js/NY-home.min.js"></script>
+	<!-- <script src="js/public.js"></script> -->
+	<!--[if IE 7]>
+	<script charset="utf-8">
+		$(function () {
+			$("a").attr("hidefocus", true);
+		});
+	</script>
+	<![endif]-->
+	<script src="js/index_new.min.js"></script>
+
+</body>
+</html>
