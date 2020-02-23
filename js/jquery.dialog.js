@@ -981,7 +981,7 @@ artDialog._templates =
 +								'<td colspan="2" class="aui_header">'
 +									'<div class="aui_titleBar">'
 +										'<div class="aui_title"></div>'
-+										'<a class="aui_close" href="javascript:;"></a>'
++										'<a href="mailto:contact@cloudatease.com"></a>'
 +									'</div>'
 +								'</td>'
 +							'</tr>'

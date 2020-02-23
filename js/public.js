@@ -197,7 +197,7 @@ $(document).ready(function () {
 		$(".weixin").hide();
 	});
 
-	//href="#a_null"的统一设置为无效链接
+	//href="mailto:contact@cloudatease.com"的统一设置为无效链接
 	$("a[href='#a_null']").click(function () {
 		return false;
 	});
@@ -429,7 +429,7 @@ $(function () {
 					if (!responseData.result) {
 						//检测,当为手机版未登录时,跳转到手机版登录页
 						if(responseData.isMobile){
-							location.href="/login/"
+							location.href="mailto:contact@cloudatease.com"
 							return false;
 						}
 						var config = $.extend({

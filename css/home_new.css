@@ -1739,25 +1739,28 @@
 }
 
 .item-01 {
-	background: url(img/parterner_active_01.png) no-repeat center;
+	background-size: cover;
+	background: url(img/amd.png) no-repeat center;
 }
 .item-02 {
-	background: url(img/parterner_active_02.png) no-repeat center;
+	max-width: 200px;
+	background-size: 200px;
+	background: url(img/nvidia.png) no-repeat center;
 }
 .item-03 {
-	background: url(img/parterner_active_03.png) no-repeat center;
+	background: url(img/debian.png) no-repeat center;
 }
 .item-04 {
-	background: url(img/parterner_active_04.png) no-repeat center;
+	background: url(img/ubuntu.png) no-repeat center;
 }
 .item-05 {
-	background: url(img/parterner_active_05.png) no-repeat center;
+	background: url(img/intel.png) no-repeat center;
 }
 .item-06 {
-	background: url(img/parterner_active_06.png) no-repeat center;
+	background: url(img/cisco.png) no-repeat center;
 }
 .item-07 {
-	background: url(img/parterner_active_07.png) no-repeat center;
+	background: url(img/opensuse.png) no-repeat center;
 }
 .item-08 {
 	background: url(img/parterner_active_08.png) no-repeat center;
