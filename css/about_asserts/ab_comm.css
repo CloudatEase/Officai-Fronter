@@ -1,0 +1,117 @@
+/*公共头部样式*/
+.about-page .header-container,.about-page .banner-box{
+    width: 100%;
+    height: 0px;
+}
+.about-page .banner-text,.about-page .banner-point,.about-page .news-casting,.about-page  .banner-ul {
+	display: none;
+}
+.about-page .module-banner-bg {
+	height:500px;
+	background: url(img/about-banner.jpg) no-repeat center center;
+}
+.about-page .banner-link {
+	display: block;
+	width: 100%;
+	height: 450px;
+}
+.ab-comm-banner{
+	position:relative;
+	width: 100%;
+	height: 100%;
+}
+.ab-comm-banner .banner-title{
+	padding-top: 180px;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+/*导航栏*/
+.about-nav-wrapper {
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.about-nav-list {
+	height: 100%;
+	line-height: 50px;
+}
+.banner-nav-item {
+	width: 14.2%;
+	height: 100%;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.banner-nav-item:hover {
+	background-color: #00aaff;
+}
+/*导航栏默认选中效果*/
+.about-introduce-page .banner-nav-introduce {
+	background-color: #00aaff;
+}
+.about-course-page .banner-nav-course {
+	background-color: #00aaff;
+}
+.about-news-page .banner-nav-news {
+	background-color: #00aaff;
+}
+.about-join-page .banner-nav-join {
+	background-color: #00aaff;
+}
+.about-connect-page .banner-nav-connect {
+	background-color: #00aaff;
+}
+.about-law-page .banner-nav-law {
+	background-color: #00aaff;
+}
+.about-friend-page .banner-nav-friend {
+	background-color: #00aaff;
+}
+.pic-tit{
+	position:relative;
+	height:45px;
+	margin-bottom:50px;
+}
+.pic-tit em{
+	font-style: normal;
+	color:#ff8800;
+}
+.pic-tit .s-font{
+	font-size:12px;
+	color:#999999;
+	text-indent: 0;
+}
+.pic-tit h2,
+.pic-tit em{
+	font-size:28px;
+}
+.pic-tit p,
+.pic-tit h2{
+	text-align: center;
+}
+.pic-tit img{
+	width:100%;
+}
+.v-line{
+	position:absolute;
+	top:13px;
+	width:100%;
+	z-index: 0;
+	border-bottom:#e9e9e9 solid 1px;
+}
+.ab-tit{
+	mix-width:142px;
+	margin-left:-71px;
+	position:absolute;
+	top:-13px;
+	*top:6px;
+	left:50%;
+	background:#FFF;
+	border:#FFF solid 6px;
+	z-index: 5;
+}
+.pic-tit em.f-normal{
+	color:#000;
+}
+

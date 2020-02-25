@@ -1,0 +1,119 @@
+/*视频展示页面css*/
+.video_dialog .aui_main {
+	padding: 0;
+}
+.video_dialog.aui_state_noTitle .aui_close {
+	display: block;
+	z-index: 99;
+	top: -24px;
+    right: -24px;
+    width: 48px;
+    height: 48px;
+    background: url(img/video_close_icon_03.png);
+}
+.video_dialog.aui_state_noTitle .aui_close:hover {
+	transform: none;
+}
+.video_dialog.aui_state_noTitle .aui_inner {
+	background-color: #000;
+}
+.video_dialog.aui_state_noTitle .aui_inner {
+	/*border: 4px solid #009fd9;*/
+}
+.aui_state_noTitle .aui_inner {
+	border-top: none;
+}
+.v1 {
+	width: 100%;
+	background-image: url(img/video_bg_new.jpg);
+	/*background-image: url(img/video_bg.png);*/
+	background-repeat: no-repeat;
+	background-position: 50% top;
+	padding-top: 302px;
+	padding-bottom: 168px;
+	-webkit-transition-duration: 8s;
+	-moz-transition-duration: 8s;
+	-ms-transition-duration: 8s;
+	-o-transition-duration: 8s;
+	transition-duration: 8s;
+}
+.bgscroll1 {
+	background-position: 50% -100px;
+}
+.v1 .auto {
+	position: relative;
+	padding-left: 0;
+}
+.v1-title {
+	position: absolute;
+	top: -200px;
+	left: 50%;
+	margin-left: -350px;
+	width: 700px;
+	height: 138px;
+	background: url(img/video_title.png?v=2) no-repeat center center;
+	opacity: 0;
+}
+.mac-bg {
+	position: absolute;
+	bottom: -230px;
+	left: 50%;
+	width: 700px;
+	height: 625px;
+	margin-left: -350px;
+	background: url(img/mac_bg.png);
+	z-index: 1;
+}
+.v1 a {
+	display: inline-block;
+	width: 150px;
+	height: 44px;
+	background: #1ac2ff;
+	border-bottom: 3px solid #009fd9;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: -19%;
+	margin-left:-75px;
+}
+.v1 a:hover {
+	background: #1daeea;
+	border-bottom: 3px solid #0083ba;
+}
+.video-player {
+	position: relative;
+	margin: 0 auto;
+	width: 679px;
+	height: 450px;
+	z-index: 2;
+}
+.video-player embed {
+	width: 100%;
+	height: 100%;
+}
+.video-player object {
+	width: 100%;
+	height: 100%;
+}
+.video-js .vjs-big-play-button{
+	top:50%;
+	left:50%;
+	margin-left: -45px;
+	margin-top: -23px;
+}
+
+/*解决火狐浏览器中视频插件异常，缩略图歪斜，插件a标签被页面css污染*/
+.trump-control-module {
+	display: none;
+}
+div[component="patch"] a {
+	display: none;
+}
+
+.video-player {
+	width: 800px;
+}

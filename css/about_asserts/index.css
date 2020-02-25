@@ -1,0 +1,241 @@
+body {
+	font-family: "Microsoft Yahei";
+	background-color: #f5f6f7;
+}
+.wave-box {
+	background-color: #f5f6f7;
+}
+.margin-bottom-60 {
+	margin-bottom: 60px;
+}
+.about-index-wrap {
+	padding: 86px 0 20px 0;
+}
+.about-index-wrap1 {
+	background-color: #fff;
+}
+.about-index-wrap2 {
+	background-color: #f5f6f7;
+}
+.about-index-wrap3 {
+	background-color: #fff;
+}
+.about-index-wrap4 {
+	background-color: #f5f6f7;
+}
+/*区块1样式,了解小鸟云*/
+.ab-div-title {
+	height: 32px;
+	line-height: 32px;
+	font-size: 32px;
+	color: #333;
+	text-align: center;
+}
+.ab-div-sub-title {
+	margin: 30px 0 80px 0;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #333;
+}
+/*图标背景*/
+.ab-icon-wrapper {
+	margin:100px 0 60px 0;
+	height: 120px;
+}
+.ab-icon-bg {
+	height: 100%;
+	width: 20%;
+	background: url(img/about-icon-new-01.png) no-repeat center;
+}
+.ab-icon-2 {
+	background-image: url(img/about-icon-new-02.png);
+}
+.ab-icon-3 {
+	background-image: url(img/about-icon-new-03.png);
+}
+.ab-icon-4 {
+	background-image: url(img/about-icon-new-04.png);
+}
+.ab-icon-5 {
+	background-image: url(img/about-icon-new-05.png);
+}
+.ab-icon-title {
+	text-align: center;
+	color: #333;
+}
+.ab-icon-top-title {
+	margin: 24px 0 0 0;
+	font-size: 30px;
+	line-height: 46px;
+	font-weight: bold;
+}
+.ab-icon-sub-title {
+	font-size: 16px;
+}
+/*了解小鸟云介绍段落*/
+.ab-introduce-p {
+	margin-bottom: 30px;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 40px;
+	color: #333;
+}
+
+/*证书区块样式*/
+/*.certificate-div-wrapper {
+	width: 100%;
+}*/
+.certificate-div-item {
+	margin-bottom: 22px;
+	width: 49%;
+	*width: 48.5%;
+	height: 162px;
+	margin-right: 2%;
+	background-color: #ffffff;
+}
+.double-certificate-item {
+	margin-right: 0;
+}
+.certificate-div-item {
+	border: 1px solid #eeeeee;
+}
+.certificate-div-item:hover {
+	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
+}
+.certificate-pic {
+	width: 22%;
+	height: 100%;
+}
+.certificate-pic-1 {
+	background: url(img/certificate-pic-01.png) no-repeat center;
+}
+.certificate-pic-2 {
+	background: url(img/certificate-pic-02.png) no-repeat center;
+}
+.certificate-pic-3 {
+	background: url(img/certificate-pic-03.png) no-repeat center;
+}
+.certificate-pic-4 {
+	background: url(img/certificate-pic-04.png) no-repeat center;
+}
+.certificate-pic-intro-div {
+	padding: 28px 26px 28px 0;
+	width: 78%;
+	*padding: 28px 0 0 0;
+	*width: 77%;
+}
+.certificate-pic-title {
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 16px;
+	color: 333333;
+}
+.certificate-pic-introduce {
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+}
+.honour-link {
+	display: block;
+	margin: 18px auto 40px;
+	width: 170px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background-color: #00aaff;
+}
+.honour-link:hover {
+
+	background-color: #0099e5;
+}
+/*产品介绍*/
+.product-icon-item {
+	margin-left: 1.8%;
+	height: 300px;
+	width: 18.5%;
+	background-color: #fff;
+}
+.product-link-a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.product-icon-item:first-child {
+	margin-left: 0;
+}
+.product-icon-bg {
+	width: 100%;
+	height: 174px;
+}
+.product-icon-bg-1 {
+	background:url(img/product-icon-new-01.png) no-repeat center 62px;
+}
+.product-icon-bg-2 {
+	background:url(img/product-icon-new-02.png) no-repeat center 62px;
+}
+.product-icon-bg-3 {
+	background:url(img/product-icon-new-03.png) no-repeat center 62px;
+}
+.product-icon-bg-4 {
+	background:url(img/product-icon-new-04.png) no-repeat center 62px;
+}
+.product-icon-bg-5 {
+	background:url(img/product-icon-new-05.png) no-repeat center 62px;
+}
+.product-icon-title {
+	margin-bottom: 14px;
+	line-height: 18px;
+	font-size: 16px;
+	text-align: center;
+	color: #333333;
+	font-weight: bold;
+}
+.product-icon-discription {
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+	color: #999999;
+}
+
+/*相关下载页面*/
+.about-index-wrap4 {
+	margin-bottom: 60px;
+}
+.download-div-item {
+	position: relative;
+	width: 32%;
+	height: 230px;
+	margin-left: 2%;
+	background: #fff url(img/download-logo.png) no-repeat center 50px;
+}
+.download-div-item.item-02 {
+	background: #fff url(img/download-pic-02.png) no-repeat center 13px;
+}
+.download-div-item.item-03 {
+	background: #fff url(img/download-pic-03.jpg) no-repeat center 35px;
+}
+.download-div-item:first-child {
+	margin-left: 0;
+}
+.download-div-item:hover {
+	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
+}
+.ab-download-link {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	display: block;
+	margin-left: -105px;
+	width: 210px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	background-color: #00aaff;
+}
+.ab-download-link:hover {
+	background-color: #0099e5;
+}

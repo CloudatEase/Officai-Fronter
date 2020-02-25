@@ -1,0 +1,18 @@
+$(function(){
+	$("#videoBtn").click(function(){
+		var $_dialog=$.dialog({
+				title:false,
+				okBtn:false,
+				padding:0,
+				margin:0,
+				width:"800px",
+				content: $("#video_container")[0],
+				init: function() {
+
+				}
+			}
+		)
+		//为打开的弹窗加上独特的类,使得其他弹窗样式不会被覆盖
+		$("#video_container").parents().find(".aui_state_noTitle").addClass("video_dialog");
+	})
+})
